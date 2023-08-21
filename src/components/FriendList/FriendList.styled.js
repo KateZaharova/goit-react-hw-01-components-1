@@ -19,7 +19,6 @@ margin-left:24px;
 `
 
 const getStatusOnline = props => { 
-    console.log(props.isonline)
     switch (props.isonline) {
         case "true":
             return "green"; 
